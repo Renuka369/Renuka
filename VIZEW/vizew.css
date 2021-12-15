@@ -1,0 +1,321 @@
+.navbar-nav {
+  font-size: 20px;
+}
+.nav-item:hover {
+  text-decoration: underline;
+  color: white;
+}
+.dropbtn {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.features {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  text-align: left;
+  padding-left: 10vh;
+  width: 500px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.features:hover .dropdown-content {
+  display: block;
+}
+
+.features:hover .dropbtn {
+  text-decoration: underline;
+}
+
+/*footer*/
+.input-container {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: red;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 80%;
+  padding: 10px;
+  outline: none;
+}
+/* Trending Videos*/
+.trnd1 {
+  background-image: url("trend1.jpeg");
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+}
+.trnd2 {
+  background-image: url("trend2.jpeg");
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+}
+.trnd3 {
+  background-image: url("trend3.jpeg");
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+}
+.trnd1b {
+  height: 30px;
+  width: 60px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+.trndr2b1 {
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  height: 30px;
+  width: 25%;
+  border: none;
+  border-radius: 5px;
+}
+.trndr2b2 {
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  height: 30px;
+  width: 25%;
+  border: none;
+  border-radius: 5px;
+}
+.trndr2b3 {
+  background-color: royalblue;
+  color: white;
+  font-size: 15px;
+  height: 30px;
+  width: 25%;
+  border: none;
+  border-radius: 5px;
+}
+.trndr2b1:hover,
+.trndr2b2:hover,
+.trndr2b3:hover {
+  background-color: rgb(68, 45, 45);
+}
+.trndr3 {
+  font-weight: 600;
+  line-height: 40px;
+  color: white;
+}
+.trndr3:hover {
+  color: red;
+}
+
+/* Featured Videos*/
+.ftv1 {
+  background-color: red;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.ftv1:hover {
+  background-color: black;
+}
+
+.featuredt:hover {
+  color: black;
+}
+.socialt {
+  background-color: rgb(93, 182, 241);
+}
+.socialf {
+  background-color: rgb(10, 70, 110);
+}
+.socialg {
+  background-color: red;
+}
+.borderc {
+  border: 2px solid gray;
+}
+.ftvc {
+  background-image: url("trend3.jpeg");
+  background-size: cover;
+  height: 40vh;
+  width: 60vh;
+}
+.lv {
+  background-image: url("trend3.jpeg");
+  background-size: cover;
+  height: 40vh;
+  width: 50vh;
+}
+.ftvc2:hover {
+  color: red;
+}
+.hotc {
+  font-size: 20px;
+  background-color: red;
+  text-align: center;
+
+  border-radius: 5px;
+}
+.newsletter {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(236, 229, 229);
+  color: black;
+  text-align: center;
+  border: none;
+}
+.newsletterb {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+  color: black;
+  text-align: center;
+  border: none;
+  color: white;
+  font-size: 30px;
+}
+.newsletterb:hover {
+  background-color: black;
+}
+/*footer*/
+.fth {
+  color: white;
+}
+.fth:hover {
+  color: red;
+}
+.some:hover {
+  color: red;
+}
+.some1 {
+  background-image: url("s1.jpeg");
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+}
+.some2 {
+  background-image: url("s2.jpeg");
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+}
+.some3 {
+  background-image: url("s3.jpeg");
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+}
+.some4 {
+  background-image: url("s4.jpeg");
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+}
+.f {
+  color: rgb(109, 109, 241);
+  font-size: 50px;
+}
+.g {
+  color: red;
+  font-size: 50px;
+}
+.i {
+  color: rgb(231, 180, 112);
+  font-size: 50px;
+}
+.t {
+  color: rgb(58, 140, 233);
+  font-size: 50px;
+}
+.l {
+  color: rgb(15, 29, 228);
+  font-size: 50px;
+}
+.rvicons {
+  font-size: 17px;
+  color: rgb(170, 174, 179);
+}
+
+.spaces {
+  padding-right: 15px;
+}
+.spaces:hover {
+  color: red;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+.hema {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 35px;
+}
+.playlist {
+  line-height: 40px;
+}
+.playlist:hover {
+  background-color: rgb(90, 86, 86);
+  border-left: 5px solid red;
+}
+
+.mainb {
+  scrollbar-color: #d4aa70 #e4e4e4;
+  transition: scrollbar-color 0.3s ease-out;
+}
+
+.mainb:hover {
+  scrollbar-color: #5749d2;
+}
+.scrolll {
+  /* background-color: #eee; */
+  width: 50%;
+  height: 500px;
+  border: 1px dotted black;
+  overflow-y: scroll; /* Add the ability to scroll */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrolll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrolll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
